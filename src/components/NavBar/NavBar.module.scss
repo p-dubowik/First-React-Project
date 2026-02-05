@@ -1,0 +1,28 @@
+@import '../../styles/settings.scss';
+
+.navBar {
+    background-color: $color-darker;
+}
+
+.navContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto $base-size*10;
+
+    a{
+        color: $color-light;
+        text-decoration: none;
+        font-family: $font-text;
+        font-size: $base-size*1.5;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: $base-size;
+
+        list-style: none;
+    }
+}
