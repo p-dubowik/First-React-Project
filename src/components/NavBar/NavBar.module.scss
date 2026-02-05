@@ -11,6 +11,11 @@
     align-items: center;
     margin: auto $base-size*10;
 
+    .linkActive{
+        transition: all 0.4s ease;
+        color: $color-warning;
+    }
+
     a{
         color: $color-light;
         text-decoration: none;
@@ -26,3 +31,4 @@
         list-style: none;
     }
 }
+

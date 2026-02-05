@@ -12,6 +12,10 @@ body {
   font-size: ($base-size * 1.1);
   color: $color-light;
   letter-spacing: 0.5px;
+  
+  &::-webkit-scrollbar {
+    width: 0;
+}
 }
 
 :global(.container) {
